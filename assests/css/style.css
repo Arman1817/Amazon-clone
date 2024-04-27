@@ -5,24 +5,27 @@
     font-family: poppins;
 }
 
-.navbar {
+.navbar_ {
+    color: white;
     background-color: black;
     height: 60px;
     width: 100%;
     display: flex;
 }
 
-.navbar img {
+.navbar_ img {
     height: 60px;
     width: 128px;
 }
 
-.navbar i {
+.navbar_ i {
     margin: 20px;
 }
 
 .location {
     padding: 7px;
+    font-size: 10px;
+    margin-top: 7px;
 }
 
 .searchbox {
@@ -59,6 +62,7 @@
     width: 40px;
     background-color: #FEBD69;
     margin-top: 8px;
+    color: white;
     /* text-align: center; */
     display: flex;
     align-items: center;
@@ -66,4 +70,39 @@
     font-weight: 500;
     font-size: 20px;
     cursor: pointer;
+}
+
+#flag{
+    height: 19px;
+    width: 23px;
+    margin-top: 21px;
+    margin-left: 17px;
+}
+
+.country{
+    margin-top: 20px;
+    margin-left: 2px;
+
+}
+.clogo{
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+.icon-box2{
+    height: 42px;
+    width: 40px;
+    margin-top: 8px;
+    color: white;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 35px;
+    cursor: pointer;
+}
+.Cart{
+    font-size: 15px;
+    margin-top: 28px;
+
 }
