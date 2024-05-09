@@ -5,14 +5,22 @@
     font-family: poppins;
 }
 
+<<<<<<< HEAD
 .home-div{
     background-image: url('https://bhavans.ac.in/college/web-assets/img/banner5.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 1;
+=======
+.navbar_ {
+    color: white;
+    background-color: black;
+    height: 60px;
+>>>>>>> 83a4ef6e134583a8be5ea9cd2a0c7e9c4fb189cb
     width: 100%;
     height: 100vh;
     display: flex;
+<<<<<<< HEAD
     color: white;
     font-weight: 500;
     justify-content: center;
@@ -23,3 +31,100 @@
 .home-div img{
     width: 150px;
 }
+=======
+}
+
+.navbar_ img {
+    height: 60px;
+    width: 128px;
+}
+
+.navbar_ i {
+    margin: 20px;
+}
+
+.location {
+    padding: 7px;
+    font-size: 10px;
+    margin-top: 7px;
+}
+
+.searchbox {
+    border-radius: 0px;
+    width: 701px;
+    height: 42px;
+    padding-top: 5px;
+    border: 0px solid;
+    padding-bottom: 5px;
+    margin-top: 8px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.search-section {
+    display: flex;
+    gap: 0;
+}
+
+#ct-dropdown {
+    height: 44px;
+    background-color: #D4D4D4;
+    width: 55px;
+    border-radius: 4px;
+    margin-top: 7px;
+    padding: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-right: -1px;
+}
+
+.icon-box{
+    height: 42px;
+    width: 40px;
+    background-color: #FEBD69;
+    margin-top: 8px;
+    color: white;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#flag{
+    height: 19px;
+    width: 23px;
+    margin-top: 21px;
+    margin-left: 17px;
+}
+
+.country{
+    margin-top: 20px;
+    margin-left: 2px;
+
+}
+.clogo{
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+.icon-box2{
+    height: 42px;
+    width: 40px;
+    margin-top: 8px;
+    color: white;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 35px;
+    cursor: pointer;
+}
+.Cart{
+    font-size: 15px;
+    margin-top: 28px;
+
+}
+>>>>>>> 83a4ef6e134583a8be5ea9cd2a0c7e9c4fb189cb
