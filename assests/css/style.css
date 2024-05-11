@@ -1,3 +1,8 @@
+
+body, html {
+    height: 100%;
+  }
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,3 +10,85 @@
     font-family: poppins;
 }
 
+.bgimage{
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://bhavans.ac.in/college/web-assets/img/banner5.jpg');
+    background-size: cover;
+    background-color: #fff;
+    background-blend-mode: luminosity;
+    filter: blur(5px);
+}
+
+.main-section{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.images-section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #FDE49E;
+    align-items: center;
+}
+
+.cards-section-1{
+    height: 80%;
+    width: 85%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-color: red;
+    background-color: #FEB941;
+    text-align: center;
+    padding: 5px;
+}
+
+.cards-section-1 h3{
+    font-weight: 700;
+    color: #f1f1f1;
+    margin-top: 10px;
+}
+
+.image-circle-container{
+    width: 150px;   
+    border: 2px solid wheat;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 141px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.arman{
+    background-image: url('https://lh3.googleusercontent.com/drive-viewer/AKGpihbVvnp87XqZ8Eq97Az-bIVb5tU2b64QelwsHOmEpf5-y8z88tWsiOjM7v-DEY2pxtPpxsV_bhiR_jrrc7yxv06sCTm1qsxixac=w1366-h615-rw-v1');
+}
+
+.aniket{
+    background-image: url('https://lh3.googleusercontent.com/u/1/drive-viewer/AKGpihYLWYQm2MZVR1iCcxdUTPX_QLTW_UhgECWts00t_hSMX2_pd8Z-viDNXDoXAlAhPkp6IA_1Q2_K24z-GDdxPF10UZUGkwsAakc=w1366-h641-rw-v1');
+}
+.image-circle-container img{
+    width: 165px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.images-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
