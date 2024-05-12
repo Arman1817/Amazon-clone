@@ -70,11 +70,15 @@ body, html {
     width: 150px;   
     border: 2px solid wheat;
     border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-repeat: no-repeat;
+    transition: all 0.5s;
     background-size: cover;
     height: 141px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
 }
 
 .arman{
@@ -108,6 +112,7 @@ body, html {
 .krutika{
     background-image: url('https://lh3.googleusercontent.com/fife/ALs6j_EYYjuAQtJEvCU9S4q3hDljiJP8ECey8kI1m7RsFF3P_FFLs30C1Rx1F0cTzhl7tLW4ciACMrfR1Moe2paWnUqCeILMGsEReV14LXnfNlQAfDXlLj5tH1Co-NdeEZXmvseuDGL_8V0Jm1K_uGuxcvrUo8XXWtOUVvXPArgheuo242zduh1qpCNNNZfuEbZ22_4OcTdPBaHDgft8HEamMfzR-9XTEZ5mIhIeJNkgUHezsTdMVoJZyiLDY7WS_iTIYbd4Wwj7-LwzqvhWH6jiXurjNRFNa-diw5NbrD99WV2OTrYCG6QtQvc7dsgj_jkA3cY-rjz5BxJn0RFkzND_ZbWDXsHE-vOWkwEnw5yAwKFXN7cgX97IDqcBx3xKKp3CNTvP2MYn904-6cI4wF2x8KCSaDG_eP5moTfFtAJpvZbGCa40jf9y8HVNRodqvLaGsf3E0xFHTpjiOPXEhC0d9ifthH5tEvp_LuCoLsaMRJMPefkZDBIKIzzYgWDHRoGQQBQ5klIsHFagw-UDOhgJLxrk1GVHwyWdp7CeudihodrKEr2kTWCXtSazScHSGwtG-q8KBWyArWUibl_omROi1JSsNLT2ezrlBZRFa434NdVQIZYYjWDtIbx01FQ5m5hbTN8lXm4a_dXgkPvDqqWXi5uq0lo4SK-UvLf7EpSpqHPcU4BMobwmqSJtFgGStZe1BnSk77Lq38ZL0B6I-enlbPqqOUZ8nsBJrJWjDlK_WfFDJJSSLZm32EzVkHVZvZiJgVS_UTdOPqSabkwD-Phzq9SVv4GDVcNlwxJzVYcPdmnwaqe_PQK-A_a4FehKBvvmlflr5F_fOcFRvMOPFq7iHm6W60XEy8z9peMH3jbYebkhLfLT6NOk4fcmUMQHQATCwRUJ1J8Cxwi0d_JEMtk1mTKIIykNR4erHXbDqsO6GAGWoLCTKgdEm9VghrUuh2PGCV4U_bqcyyMQCzuQCTfc2GXQgUFHMbHXR1gKt_-sAh77jL9kzAwTb9a7bcNvDHfULaXkbeyrgOv939-q8xPYvcLSS6WRckHmw5pF0424GSDl-Thgce1_3Dy6ZbqJ4m8XiJ3ISR_Bo75bB_m_E4rd7Ju9WBumFCaCvlwfgeA1dxBf1yS2X9w_g3zugsaqeuOt0m3EYazxc-gbQ_oe9yXMMazW6-3OHMS5Bw_3ML8_o7gJyA9uUDxXWu0g3gOQoAp705ONmlxpPNdWbMGAtOCnlZ_4jkMU6aZsjZaRn2Xpes_0Ije_wUNQWn-GpIhVmVYZQ7v-yR1MZW44oSZrNdgYmqiAbz2omcsVZkeOW9lVrRXURTTiWKownughHY11UtZaq7HwI4C8QslPSQrpYgFi16UOBw4VJ35XTBOlCU4yUPfXJJBdDPMzSqE6_Sn81mP_bTvmEyqf2XlLl_vhlgPADrYKa31G7kq_gCNlSmY6GawtFoNTDnEAYIxremMnwckbyOQmNoS0pBjXl7uoDjr7OEu537Vetw4HLusDo6KR30kfmUkc-vLIPlJs-6WD1EZUv0WfHhk4Ar0nBEjnUMw_MB5FnFS1fYFV0y3twhNMRWCRXF8DfoMUBpY-mfq9SUKxP2L5lH7YXytfKLHVwqTPpzhxhCDoJrTzI41KGEEbcyl3sDkWbkYVgGutUfj_FJBiMcue9YcMRIq_fSseMAs1=w1920-h912');  
 }
+
 .image-circle-container img{
     width: 165px;
     height: 150px;
@@ -124,4 +129,29 @@ body, html {
 }
 .mybox h5{
     margin-top:10px ;
+}
+
+/* Chat Gpt Section */
+.image-circle-container:hover{
+    background: radial-gradient(circle, rgba(245, 178, 12, 1) 0%, rgba(245, 178, 12, 1) 100%);
+}
+
+.image-circle-container p{
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.image-circle-container:hover p{
+    opacity: 1;
+    animation: rotateComplete 0.7s alternate;
+}
+
+@keyframes rotateComplete {
+	0% {
+		transform: scaleX(-1);
+	}
+
+	100% {
+		transform: scaleX(1);
+	}
 }
